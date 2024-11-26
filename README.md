@@ -1,14 +1,14 @@
-#Trackpad expression
+# Trackpad expression
 
-##What is this?
+## What is this?
 
 An abuse of (mac) trackpads for MIDI MPE monophonic performance expression 😋
 
 Intended use is to add expression following tapping gestures. Simply tap along to the beat to emit MIDI notes and MIDI control data responding to **movement** and **pressure** changes during a touch.
 
-!(doc/trackpad_expression.png)
+![doc/trackpad_expression.png]
 
-##Usage
+## Usage
 
 Let's say you want to play a synth bassline with some SASS! 😎🎸 
 
@@ -41,7 +41,7 @@ The default behaviour of absolute xposition requires touch @ pad centre for zero
     
 The optional relative x-position emits zero pbend on initial touch ***this allows for perfectly tuned notes with vibrato note articulations*** but not "bend into" note articulations
 
-!(doc/gestures.png)
+![doc/gestures.png]
 
 Several more modes are possible, including 
 
@@ -65,7 +65,7 @@ A standalone MacOS .app executable is provided (zipped). The interface was built
 
 Files `AppleBluetoothMultitouch.kext` and `fingerpinger.mxo` are supplied. These are configured such that an external apple magic trackpad __does not__ move the mouse pointer.
 
-##Anything else I should know?
+## Anything else I should know?
 
 During development this was named `trackpadMidiTapper` due to the similarity with the MidiTapper tool.
 
