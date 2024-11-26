@@ -6,7 +6,7 @@ An abuse of (mac) trackpads for MIDI MPE monophonic performance expression 😋
 
 Intended use is to add expression following tapping gestures. Simply tap along to the beat to emit MIDI notes and MIDI control data responding to **movement** and **pressure** changes during a touch.
 
-![doc/trackpad_expression.png]
+![screenshot of interface](doc/trackpad_expression.png)
 
 ## Usage
 
@@ -41,18 +41,18 @@ The default behaviour of absolute xposition requires touch @ pad centre for zero
     
 The optional relative x-position emits zero pbend on initial touch ***this allows for perfectly tuned notes with vibrato note articulations*** but not "bend into" note articulations
 
-![doc/gestures.png]
+![examples of expressive control, touch, side to side, back and forth, variable pressure, bend into, vibrato, etc](doc/gestures.png)
 
 Several more modes are possible, including 
 
-1. FIXD 
+1. FIX
    - emit a fixed MIDI note number when trackpad touched / released
    - plus performance expression control during note press
 
 2. CC
    - emit only performance expression control during touch
 
-3. SEQD
+3. SEQ
    - as in the example scenario above...
    - emit notes (in the order the appear in a specified MIDI file)
    - plus performance expression control during note press
