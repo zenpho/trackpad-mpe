@@ -61,9 +61,9 @@ Several more modes are possible, including
 
 An `example.mid` standard midi file (single channel, single track) is provided so you can play a tune right away **with attitude** 😛
 
-A standalone MacOS .app executable is provided (zipped). The interface was built using Cycling74 MaxMSP. This repo includes the `.maxpat` source file as well as the required extension `.mxo` files and their c/c++ sourcecode.
+A standalone MacOS .app executable is provided (zipped). The interface was built using Cycling74 MaxMSP. This repo includes the `.maxpat` source file as well as the required extension `fingerpinger.mxo` file and the c/c++ sourcecode from Michael & Max Egger at http://anyma.ch to build it.
 
-Files `AppleBluetoothMultitouch.kext` and `fingerpinger.mxo` are supplied. These are configured such that an external apple magic trackpad __does not__ move the mouse pointer.
+A special `AppleBluetoothMultitouch.kext` is supplied. This is configured such that an external apple magic trackpad __does not__ move the mouse pointer.
 
 ## Anything else I should know?
 
